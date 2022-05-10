@@ -1,5 +1,5 @@
-import mainPageContainer from './components/MainPageContainer';
+import MainContainer from './components/MainContainer';
 
 export default function App() {
-  return <mainPageContainer />;
+  return <MainContainer />
 }

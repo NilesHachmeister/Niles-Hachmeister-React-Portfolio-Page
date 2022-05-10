@@ -1,0 +1,23 @@
+.header {
+  /* background-image: url('./images/header-background.jpg'); */
+  /* background-color: purple; */
+  height: 200px;
+  color: white;
+}
+
+.header h1 {
+  padding-top: 25px;
+  text-align: left;
+  color: white;
+  font-size: 3rem;
+}
+
+ul li {
+  text-align: right;
+  display: inline;
+  margin-left: 2%;
+}
+
+.active {
+  color: red;
+}

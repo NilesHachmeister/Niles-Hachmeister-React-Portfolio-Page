@@ -1,0 +1,10 @@
+[
+    {
+        "imgPath": "./images/img1.png",
+        "description": "This is image one"
+    },
+    {
+        "imgPath": "./images/img2.png",
+        "description": "This is image two"
+    }
+]
