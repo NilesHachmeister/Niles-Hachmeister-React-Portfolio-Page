@@ -1,7 +1,8 @@
 [
     {
         "imgPath": "./images/img1.png",
-        "description": "This is image one"
+        "title": "This is image one",
+        "githubPath": "https...."
     },
     {
         "imgPath": "./images/img2.png",

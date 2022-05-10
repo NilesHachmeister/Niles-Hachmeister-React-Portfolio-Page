@@ -5,7 +5,7 @@ import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Resume from './Resume';
-
+import Footer from './Footer';
 
 const MainContainer = () => {
 
@@ -24,9 +24,12 @@ const MainContainer = () => {
       return <AboutMe />
     } else if (content === "Portfolio") {
       return <Portfolio />
+    } else if (content === "Contact") {
+      return <Contact />
+    } else {
+      return <Resume />
     }
   }
-
 
 
   // validate email
@@ -34,11 +37,33 @@ const MainContainer = () => {
 
   return (
     <>
-      <Header currentPage={content} changeFunction={handleChange} />
-      {/* <AboutMe /> */}
+      <Header
+        currentPage={content} changeFunction={handleChange}
+      />
+
       {renderSection()}
-      <button onClick={handleChange}>press to view portfolio</button>
-      <Contact />
+
+
+
+      {/* <Footer />*/}
+
+     
+      <div className="footer row align-items-center">
+
+
+
+        <div className="">
+          <a className="contact-links" href="https://github.com/NilesHachmeister" target="_blank"><i
+            className="bi bi-github"></i></a>
+          <a className="contact-links" href="https://www.linkedin.com/in/niles-hachmeister-678365225/"
+            target="_blank"><i className="bi bi-linkedin"></i></a>
+          <a className="contact-links" href="./assets/images/Resume.pdf" download="NilesHachmeister"><i
+            className="bi bi-file-person"></i></a>
+        </div>
+
+
+      </div>
+
     </>
   )
 };

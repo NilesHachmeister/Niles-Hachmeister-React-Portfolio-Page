@@ -3,7 +3,7 @@ import cardInfo from '../data/cardInfo.json'
 
 function Portfolio() {
     return (
-        <div className='container'>
+        <div id="contact" className="container">
 
 
 
@@ -14,34 +14,20 @@ function Portfolio() {
             </div>
 
             <div>
-                {cardInfo.map(element => {
+                {cardInfo.map((element, index) => {
                     return (
                         <>
-                            <img src={element.imgPath} />
-                            <p>{element.description}</p>
+                            <img key={index} src={element.imgPath} />
+                            <a href={element.deployedPath}>
+                                <p>{element.title}</p>
+                            </a>
+
+                            <a className="github-icon" href={element.githubPath}></a>
                         </>
                     )
                 })}
             </div>
 
-
-            // put info in a json file? with the github, deployed, image src, etc? then map through the json file?
-
-            {/* {images.map((pic, index) => {
-                return (
-
-                <div className="picture-container">
-                    <a href="https://github.com/NilesHachmeister/to-cook-or-not-to-cook-server">
-                        <div className="card bg-dark text-white main-img">
-                            <h5 className="card-title">To cook or not to cook</h5>
-                            <img className="card-img" src="./assets/images/img1.png" alt="Card image" />
-                        </div>
-                    </a>
-                </div>
-                )
-
-
-            })} */}
 
 
 

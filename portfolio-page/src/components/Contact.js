@@ -34,7 +34,7 @@ function Contact() {
 
 
     return (
-        <div className='container'>
+        <div id="contact" className="container">
 
             <form>
                 <label htmlFor="name">Name:</label>
