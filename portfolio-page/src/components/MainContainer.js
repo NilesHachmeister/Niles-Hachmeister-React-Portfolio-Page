@@ -20,7 +20,7 @@ import Footer from './Footer';
 const MainContainer = () => {
 
 
-  const [content, setContent] = useState("Contact")
+  const [content, setContent] = useState("Resume")
 
   const handleChange = (content) => {
     setContent(content)

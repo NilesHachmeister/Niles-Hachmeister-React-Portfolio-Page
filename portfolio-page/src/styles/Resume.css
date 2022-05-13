@@ -1,4 +1,4 @@
-#contact {
+#resume {
     background: rgb(16, 103, 142);
     background: radial-gradient(circle, rgba(16, 103, 142, 1) 0%, rgba(148, 155, 233, 1) 100%);
     margin: 0;
@@ -6,12 +6,12 @@
     padding: 20px;
 }
 
-.form-values {
-    width: 75%;
+
+.list-item {
+    text-align: left;
+    list-style-type: circle;
 }
 
-label,
-#alert-message {
-    font-weight: 500;
-    font-size: 1.2rem;
+.list-group {
+    list-style-type: circle;
 }
