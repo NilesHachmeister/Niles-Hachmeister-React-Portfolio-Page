@@ -1,32 +1,36 @@
 import React from 'react';
 import cardInfo from '../data/cardInfo.json'
+import '../styles/Portfolio.css';
+
 
 function Portfolio() {
     return (
-        <div id="contact" className="container">
+        <div id="portfolio" className="container">
 
 
 
 
 
-            <div className="col-lg-2 title-for-content-area">
-                My Work
-            </div>
 
-            <div>
-                {cardInfo.map((element, index) => {
-                    return (
-                        <>
-                            <img key={index} src={element.imgPath} />
-                            <a href={element.deployedPath}>
-                                <p>{element.title}</p>
+            {cardInfo.map((element, index) => {
+                return (
+                    <div className="portfolio-card">
+                        <img key={index} src={element.imgPath} className="portfolio-img" />
+
+                        <div className="portfolio-title">
+                            <a className="deployed-link" href={element.deployedPath}>
+                                {element.title}
                             </a>
+                            <a className="github-icon bi bi-github" href={element.githubPath}></a>
+                        </div>
 
-                            <a className="github-icon" href={element.githubPath}></a>
-                        </>
-                    )
-                })}
-            </div>
+
+
+                        <p className="tech-used">{element.tech}</p>
+                    </div>
+                )
+            })}
+
 
 
 
