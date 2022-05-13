@@ -9,15 +9,14 @@ const footerStyle = {
         backgroundSize: "cover",
         height: '100px',
         justifyContent: 'center',
-        // alignItems: 'center',
-        dihsplay: 'flex',
+        alignItems: 'center',
+
 
     },
     anchors: {
         fontSize: '50px',
         color: 'black',
-        display: 'inline',
-        paddingLeft: '20%',
+        textAlign: 'center',
     }
 
 
@@ -37,13 +36,13 @@ function Footer() {
 
 
 
-            <a style={footerStyle.anchors} className="contact-links" href="https://github.com/NilesHachmeister" target="_blank"><i
+            <a style={footerStyle.anchors} className="contact-links col-4" href="https://github.com/NilesHachmeister" target="_blank"><i
                 className="bi bi-github"></i></a>
 
-            <a style={footerStyle.anchors} className="contact-links" href="https://www.linkedin.com/in/niles-hachmeister-678365225/"
+            <a style={footerStyle.anchors} className="contact-links col-4" href="https://www.linkedin.com/in/niles-hachmeister-678365225/"
                 target="_blank"><i className="bi bi-linkedin"></i></a>
 
-            <a style={footerStyle.anchors} className="contact-links" href="https://stackoverflow.com/users/17302589/niles-hachmeister"><i
+            <a style={footerStyle.anchors} className="contact-links col-4" href="https://stackoverflow.com/users/17302589/niles-hachmeister"><i
                 className="bi bi-stack-overflow"></i></a>
 
 

@@ -2,7 +2,7 @@
     background: rgb(16, 103, 142);
     background: radial-gradient(circle, rgba(16, 103, 142, 1) 0%, rgba(148, 155, 233, 1) 100%);
     margin: 0;
-    width: 100vw;
+    width: 100%;
 }
 
 #picture-of-me {

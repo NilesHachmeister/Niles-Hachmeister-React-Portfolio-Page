@@ -1,9 +1,6 @@
 .header {
-  /* background-image: url('./images/header-background.jpg'); */
-  /* background-color: purple; */
   height: 200px;
   color: white;
-
   justify-content: center;
   align-items: center;
 }

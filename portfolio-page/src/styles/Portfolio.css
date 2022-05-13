@@ -24,7 +24,6 @@
     position: absolute;
     left: 10px;
     top: 10%;
-
     font-weight: 500;
     font-size: 2rem;
 }
@@ -32,10 +31,12 @@
 .github-icon {
     margin-left: 20px;
     color: rgb(18, 97, 123);
+    opacity: 0;
 }
 
 .deployed-link {
     color: rgb(18, 97, 123);
+    opacity: 0;
 }
 
 .tech-used {
@@ -44,10 +45,17 @@
     top: 30%;
     font-size: 1.5rem;
     left: 10px;
+    opacity: 0;
+}
+
+
+.hover-active {
+    opacity: 1;
 }
 
 
 
 .portfolio-card:hover {
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.8);
+    opacity: 1;
 }
