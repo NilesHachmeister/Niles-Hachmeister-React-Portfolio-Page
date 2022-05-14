@@ -9,8 +9,6 @@ function Contact() {
 
 
 
-
-
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('')
@@ -27,10 +25,9 @@ function Contact() {
         } else if (inputType === 'email') {
             setEmail(inputValue);
             if (validateEmail(inputValue)) {
-
-
-
                 setValidEmail(true)
+            } else {
+                setValidEmail(false)
             }
 
 
@@ -51,12 +48,6 @@ function Contact() {
         setMessage("")
 
     };
-
-
-    // how to tell if  the curser has moved away?
-    // make this a use effect on click?
-
-    // message is the focus?
 
 
     const renderMessage = () => {

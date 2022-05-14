@@ -9,30 +9,36 @@ import Footer from './Footer';
 
 
 
-// width of the about me section.
-// validate email/message working the way we want?
-// hover show text
 
+
+// transition for the portfolio text
+// space under about me section
 
 
 
 const MainContainer = () => {
 
 
-  const [content, setContent] = useState("Resume")
+  const [content, setContent] = useState("AboutMe")
 
   const handleChange = (content) => {
     setContent(content)
   }
 
-  const [hoverActive, setHoverActive] = useState(false)
+  const [hoverActive, setHoverActive] = useState(10)
+
+
+
+
+
 
 
   const renderSection = () => {
     if (content === "AboutMe") {
       return <AboutMe />
     } else if (content === "Portfolio") {
-      return <Portfolio hoverActive={hoverActive} setHoverActive={setHoverActive} />
+      return <Portfolio hoverActive={hoverActive} setHoverActive={setHoverActive}
+      />
     } else if (content === "Contact") {
       return <Contact />
     } else {
@@ -46,7 +52,6 @@ const MainContainer = () => {
       <Header
         currentPage={content} changeFunction={handleChange}
       />
-
       {renderSection()}
       <Footer />
     </>

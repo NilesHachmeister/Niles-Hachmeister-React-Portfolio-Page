@@ -7,7 +7,7 @@ const footerStyle = {
     mainDiv: {
         backgroundImage: `url(${image})`,
         backgroundSize: "cover",
-        height: '100px',
+        // height: '100px',
         justifyContent: 'center',
         alignItems: 'center',
 

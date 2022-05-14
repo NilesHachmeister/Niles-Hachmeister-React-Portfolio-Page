@@ -22,8 +22,8 @@ function AboutMe() {
                     after
                     the
                     completion of the bootcamp.
-                    <br />
-                    <br />
+                    <br></br>
+                    <br></br>
 
                     In Spring of 2015 I graduated from Colorado State University with a Bachelors degree in
                     Phycology
@@ -34,8 +34,8 @@ function AboutMe() {
                     manager
                     of
                     the Windsor Location.
-                    <br />
-                    <br />
+                    <br></br>
+                    <br></br>
                     The pivot from psychology to management and then to web development may seem like a strange one.
                     In
                     reality it all comes down to one simple skill set that I thrive on, problem solving. All of my
@@ -47,10 +47,7 @@ function AboutMe() {
                     able to use this skill towards web development in the future.
                 </p>
             </div>
-
-
         </div>
-
     )
 }
 

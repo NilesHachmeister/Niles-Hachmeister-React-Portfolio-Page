@@ -7,7 +7,7 @@ function Resume() {
         <div id="resume" className="container">
 
             <h2>Resume</h2>
-            <p>Download my  <a href="./images/Niles-Hachmeister-Resume.pdf" download="NilesHachmeister">
+            <p>Download my  <a id="resume-link" href="./images/Niles-Hachmeister-Resume.pdf" download="NilesHachmeister">
                 Resume
             </a>
             </p>
