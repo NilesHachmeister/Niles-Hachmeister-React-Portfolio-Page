@@ -18,7 +18,7 @@ function AboutMe() {
 
 
             <div className="main-content-div">
-                <p>I am currently in a coding bootcamp for web development. My goal is to become a web developer
+                <p className="p-for-about-me">I am currently in a coding bootcamp for web development. My goal is to become a web developer
                     after
                     the
                     completion of the bootcamp.

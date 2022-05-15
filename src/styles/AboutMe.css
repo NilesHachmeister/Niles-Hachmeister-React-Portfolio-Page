@@ -3,6 +3,7 @@
     background: radial-gradient(circle, rgba(16, 103, 142, 1) 0%, rgba(148, 155, 233, 1) 100%);
     min-width: 100%;
     min-height: 100%;
+    margin-bottom: 0;
 }
 
 #picture-of-me {
@@ -11,7 +12,8 @@
     float: left;
 }
 
-p {
+.p-for-about-me {
     font-size: 1.8rem;
     font-weight: 500;
+    margin-bottom: 0;
 }

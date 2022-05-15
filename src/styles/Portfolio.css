@@ -37,6 +37,7 @@
 .deployed-link {
     color: rgb(18, 97, 123);
     opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .tech-used {
@@ -46,11 +47,13 @@
     font-size: 1.5rem;
     left: 10px;
     opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
 
 .hover-active {
     opacity: 1;
+    transition: opacity 0.3s ease-in-out;
 }
 
 
