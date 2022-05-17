@@ -3,20 +3,10 @@ import '../styles/AboutMe.css';
 
 function AboutMe() {
 
+    // returning the about me section
     return (
         <div id="about-me" className="container">
-
-
-
-
-
-
-
             <img src="./images/me.jpg" id="picture-of-me" alt="a picture of me outside" />
-
-
-
-
             <div className="main-content-div">
                 <p className="p-for-about-me">I am currently in a coding bootcamp for web development. My goal is to become a web developer
                     after

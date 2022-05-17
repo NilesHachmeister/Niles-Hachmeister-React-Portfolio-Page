@@ -3,6 +3,8 @@ import '../styles/Resume.css';
 
 
 function Resume() {
+
+    // returning the resume section of my page
     return (
         <div id="resume" className="container">
 
