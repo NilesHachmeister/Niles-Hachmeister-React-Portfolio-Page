@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.b420683f.css",
-    "main.js": "/my-app/static/js/main.83e61378.js",
-    "static/media/background.jpg": "/my-app/static/media/background.8e16506a957d7118afbe.jpg",
-    "index.html": "/my-app/index.html",
-    "main.b420683f.css.map": "/my-app/static/css/main.b420683f.css.map",
-    "main.83e61378.js.map": "/my-app/static/js/main.83e61378.js.map"
+    "main.css": "/Niles-Hachmeister-React-Portfolio-Page/static/css/main.b420683f.css",
+    "main.js": "/Niles-Hachmeister-React-Portfolio-Page/static/js/main.db7c1427.js",
+    "static/media/background.jpg": "/Niles-Hachmeister-React-Portfolio-Page/static/media/background.8e16506a957d7118afbe.jpg",
+    "index.html": "/Niles-Hachmeister-React-Portfolio-Page/index.html",
+    "main.b420683f.css.map": "/Niles-Hachmeister-React-Portfolio-Page/static/css/main.b420683f.css.map",
+    "main.db7c1427.js.map": "/Niles-Hachmeister-React-Portfolio-Page/static/js/main.db7c1427.js.map"
   },
   "entrypoints": [
     "static/css/main.b420683f.css",
-    "static/js/main.83e61378.js"
+    "static/js/main.db7c1427.js"
   ]
 }
